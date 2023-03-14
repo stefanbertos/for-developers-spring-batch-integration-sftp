@@ -12,4 +12,14 @@ spring:
 
 application:
   schedule:
-    cron: "0 0/10 * * * ?"
+    cron: "0 0/5 * * * ?"
+  batch:
+    chunkSize: 10000
+  sftp:
+    host: hostname
+    port: 22
+    user: ubuntu
+    privateKey: classpath:sftp.ppk
+    directory: /home/ubuntu
+
+logging.level.org.apache.sshd: DEBUG
