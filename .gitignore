@@ -38,3 +38,4 @@ out/
 /src/main/resources/sftp.ppk
 /src/main/resources/sftp2.pem
 /tmp/file.csv
+/src/main/resources/id_rsa
